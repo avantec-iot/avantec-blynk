@@ -37,7 +37,7 @@ Experience starts when your customer unboxes your product and turn it on for the
 * Product automatically switches into a WiFi Access Point (AP) mode and starts broadcasting its' own WiFi network. This state is indicated with an LED color and animation (or you can provide your own indication)
 * User opens your app and follows the **Connection Wizard UI** which guides them through the steps to connect the product to their WiFi network.
 
-.. figure:: /_static/intro/connect_ta65_to_blynk_by_end_user/wi-fi-wizard.png
+.. figure:: ../_static/intro/connect_ta65_to_blynk_by_end_user/wi-fi-wizard.png
     :alt: Connection Wizard UI example
     :align: center
 

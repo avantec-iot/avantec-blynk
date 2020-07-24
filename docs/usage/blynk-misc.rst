@@ -21,24 +21,24 @@ How it works: - you send the QR code to your users (you can email, print, post t
 
 Go to your Project’s Settings:
 
-.. image:: /_static/usage/blynk_usage/dash_settings_sharing.png
+.. image:: ../_static/usage/blynk_usage/dash_settings_sharing.png
     :width: 40%
 
 Click on “Generate Link” button :
 
-.. image:: /_static/usage/blynk_usage/dash_settings_sharing_generate.png
+.. image:: ../_static/usage/blynk_usage/dash_settings_sharing_generate.png
     :width: 40%
 
 It will generate QR code you can share with others:
 
-.. image:: /_static/usage/blynk_usage/dash_public_sharing.png
+.. image:: ../_static/usage/blynk_usage/dash_public_sharing.png
     :width: 40%
 
 That’s it! Now **Exit the settings and press PLAY button**.
 
 Another person would need to install Blynk app and scan QR code from the login screen (scanning from existing profile is not yet supported) ;
 
-.. image:: /_static/usage/blynk_usage/scan_qr.png
+.. image:: ../_static/usage/blynk_usage/scan_qr.png
     :width: 40%
 
 .. note::
@@ -57,17 +57,17 @@ In case you want to share your Project’s set up without giving access to your 
 
 In Project’s Settings go to **Clone** button.
 
-.. image:: /_static/usage/blynk_usage/clone.png
+.. image:: ../_static/usage/blynk_usage/clone.png
     :width: 40%
 
 It will generate QR code you can share with anyone.
 
-.. image:: /_static/usage/blynk_usage/QR.png
+.. image:: ../_static/usage/blynk_usage/QR.png
     :width: 40%
 
 Another person **should Log In to Blynk app** and press QR button in Projects gallery
 
-.. image:: /_static/usage/blynk_usage/QR_button_edit.png
+.. image:: ../_static/usage/blynk_usage/QR_button_edit.png
     :width: 40%
 
 After the scan, a new Project will be created, all the widgets, settings, layout will be cloned. Another person would need enough Energy Balance to clone your Project.

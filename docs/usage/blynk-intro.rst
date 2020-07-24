@@ -26,7 +26,7 @@ There are three major components in the platform:
 
 **Now imagine:** every time you press a Button in the Blynk app, the message travels to space the Blynk Cloud, where it magically finds its way to your hardware. It works the same in the opposite direction and everything happens in a blynk of an eye.
 
-.. image:: /_static/usage/blynk_usage/blynk_architecture.png
+.. image:: ../_static/usage/blynk_usage/blynk_architecture.png
 
 
 Features

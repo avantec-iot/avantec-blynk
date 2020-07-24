@@ -29,7 +29,7 @@ Pin Selector
 This is one of the main parameters you need to set. It defines which pin to control or to read from.
 
 
-.. image:: /_static/usage/blynk_usage/pin_selection.png
+.. image:: ../_static/usage/blynk_usage/pin_selection.png
     :width: 40%
 
 * **Digital Pins** - represent physical Digital IO pins on your hardware. PWM-enabled pins are marked with the `~` symbol
@@ -44,7 +44,7 @@ Data Mapping
 
 In case you want to map incoming values to specific range you may use mapping button:
 
-.. image:: /_static/usage/blynk_usage/display_edit_mapping.png
+.. image:: ../_static/usage/blynk_usage/display_edit_mapping.png
     :width: 40%
 
 Let’s say your sensor sends values from 0 to 1023. But you want to display values in a range 0 to 100 in the app. When Data Mapping enabled, incoming value 1023 will be mapped to 100.
@@ -120,10 +120,10 @@ Button
 
 Works in push or switch modes. Allows to send ON and OFF (LOW/HIGH) values. Button sends 1 (HIGH) on press and sends 0 (LOW) on release.
 
-.. image:: /_static/usage/blynk_usage/button.png
+.. image:: ../_static/usage/blynk_usage/button.png
     :width: 15%
 
-.. image:: /_static/usage/blynk_usage/button_edit.png
+.. image:: ../_static/usage/blynk_usage/button_edit.png
     :width: 40%
 
 Sketch: `BlynkBlink`__
@@ -137,10 +137,10 @@ Slider
 
 Similar to potentiometer. Allows to send values between in a given MIN/MAX range.
 
-.. image:: /_static/usage/blynk_usage/slider.png
+.. image:: ../_static/usage/blynk_usage/slider.png
     :width: 15%
 
-.. image:: /_static/usage/blynk_usage/slider_edit.png
+.. image:: ../_static/usage/blynk_usage/slider_edit.png
     :width: 40%
 
 Sketch: `BlynkBlink`__
@@ -155,10 +155,10 @@ Timer triggers actions at a specified time. Even if smartphone and app is offlin
 
 Recent Android version also has improved Timer within Eventor widget. With Eventor Time Event you can assign multiple timers on same pin, send any string/value, select days and timezone. It is recommended to use Eventor over Timer widget. However Timer widget is still suitable for simple timer events.
 
-.. image:: /_static/usage/blynk_usage/timer.png
+.. image:: ../_static/usage/blynk_usage/timer.png
     :width: 15%
 
-.. image:: /_static/usage/blynk_usage/timer_edit.png
+.. image:: ../_static/usage/blynk_usage/timer_edit.png
     :width: 40%
 
 .. note:: 
@@ -186,10 +186,10 @@ When it’s ON, Joystck will automatically rotate if you use your smartphone in 
 - **Auto-Return** - When it’s OFF, Joystick handle will not return back to center position. It will stay where you left it.
 
 
-.. image:: /_static/usage/blynk_usage/joystick.png
+.. image:: ../_static/usage/blynk_usage/joystick.png
     :width: 15%
 
-.. image:: /_static/usage/blynk_usage/joystick_edit.png
+.. image:: ../_static/usage/blynk_usage/joystick_edit.png
     :width: 40%
 
 Sketch: `JoystickTwoAxis`__
@@ -259,10 +259,10 @@ Value Display
 
 Displays incoming data.
 
-.. image:: /_static/usage/blynk_usage/display.png
+.. image:: ../_static/usage/blynk_usage/display.png
     :width: 15%
 
-.. image:: /_static/usage/blynk_usage/display_edit.png
+.. image:: ../_static/usage/blynk_usage/display_edit.png
     :width: 40%
 
 Sketch: `BlynkBlink`__
@@ -275,10 +275,10 @@ Labeled Value
 
 Displays incoming data in a formatted wayt. It is a better version of ‘Value Display’ where you can add suffixes and prefixes on the app side, with no coding on the hardware.
 
-.. image:: /_static/usage/blynk_usage/labeled_value.png
+.. image:: ../_static/usage/blynk_usage/labeled_value.png
     :width: 15%
 
-.. image:: /_static/usage/blynk_usage/labeled_value_edit.png
+.. image:: ../_static/usage/blynk_usage/labeled_value_edit.png
     :width: 40%
 
 Sketch: `BlynkBlink`__
@@ -297,7 +297,7 @@ For example: your sensor sends vaule of 12.6789 to Blynk application. Next forma
 
 ``/pin.##/`` - displays the value with two decimal places (12.68)
 
-.. image:: /_static/usage/blynk_usage/labeled_value_format_edit.png
+.. image:: ../_static/usage/blynk_usage/labeled_value_format_edit.png
     :width: 40%
 
 
@@ -320,7 +320,7 @@ All values between 0 and 255 will change LED brightness:
     WidgetLED led2(V2);
     led2.setValue(127); //set brightness of LED to 50%.
 
-.. image:: /_static/usage/blynk_usage/led.png
+.. image:: ../_static/usage/blynk_usage/led.png
     :width: 15%
 
 Sketch: `LED`__
@@ -333,10 +333,10 @@ Gauge
 
 Visual display of numeric values.
 
-.. image:: /_static/usage/blynk_usage/gauge.png
+.. image:: ../_static/usage/blynk_usage/gauge.png
     :width: 15%
 
-.. image:: /_static/usage/blynk_usage/gauge_edit.png
+.. image:: ../_static/usage/blynk_usage/gauge_edit.png
     :width: 40%
 
 Sketch: `BlynkBlink`__
@@ -377,10 +377,10 @@ Where x is a symbol position (0-15), y is a line id (0 or 1),
 
     lcd.clear();
 
-.. image:: /_static/usage/blynk_usage/lcd.png
+.. image:: ../_static/usage/blynk_usage/lcd.png
     :width: 15%
 
-.. image:: /_static/usage/blynk_usage/lcd_edit.png
+.. image:: ../_static/usage/blynk_usage/lcd_edit.png
     :width: 40%
 
 
@@ -403,7 +403,7 @@ For example: your sensor sends vaule of 12.6789 to Blynk application. Next forma
 
 ``/pin.##/`` - displays the value with two decimal places (12.68)
 
-.. image:: /_static/usage/blynk_usage/lcd_format_edit.png
+.. image:: ../_static/usage/blynk_usage/lcd_format_edit.png
     :width: 40%
 
 .. _superchart:
@@ -429,12 +429,12 @@ Interactions:
 
 * **Tap ’n’ hold to view timestamp and corresponding values**
 
-    .. image:: /_static/usage/blynk_usage/tapnhold_charts.png
+    .. image:: ../_static/usage/blynk_usage/tapnhold_charts.png
         :width: 40%
 
 * **Quick swipe from left to right to reveal previous data**
 
-    .. image:: /_static/usage/blynk_usage/swipe_charts.png
+    .. image:: ../_static/usage/blynk_usage/swipe_charts.png
         :width: 40%
 
     Then you can then scroll data back and forward within the given time range.
@@ -443,7 +443,7 @@ Interactions:
 
     Press this button to open Full Screen view in landscape orientation:
 
-    .. image:: /_static/usage/blynk_usage/fullscreen_charts.png
+    .. image:: ../_static/usage/blynk_usage/fullscreen_charts.png
         :width: 40%
 
     Simply rotate the phone back to portrait mode. Chart should rotate automagically. In full screen view you will see X (time) and multiple Y scales. Full Screen Mode can be disabled from widget Settings.
@@ -455,7 +455,7 @@ Interactions:
     * Export to CSV
     * Erase Data on the server
 
-    .. image:: /_static/usage/blynk_usage/menu_charts.png
+    .. image:: ../_static/usage/blynk_usage/menu_charts.png
         :width: 40%
 
 
@@ -475,7 +475,7 @@ Datastream Settings:
 
 Widget supports up to 4 Datastreams. Press Datastream Settings Icon to open Datastream Settings.
 
-.. image:: /_static/usage/blynk_usage/datastream_charts.png
+.. image:: ../_static/usage/blynk_usage/datastream_charts.png
     :width: 40%
 
 * **Design:** Choose available types of Chart:
@@ -524,7 +524,7 @@ Widget supports up to 4 Datastreams. Press Datastream Settings Icon to open Data
     2. Values
         When this mode is selected, Y scale will be set to the values you choose. For example, if your hardware sends data with values varying from -100 to 100, you can set the chart to this values and data will be rendered correctly.
 
-        .. image:: /_static/usage/blynk_usage/yScale_manual_charts.png
+        .. image:: ../_static/usage/blynk_usage/yScale_manual_charts.png
             :width: 40%
 
         You may also want to visualize the data within some specific range. Let’s say incoming data has values in the range of 0-55, but you would like to see only values in the range 30-50. You can set it up and if values are out of Y scale you configured, chart will be cropped
@@ -532,7 +532,7 @@ Widget supports up to 4 Datastreams. Press Datastream Settings Icon to open Data
     3. % of Height
         This option allows you to auto-scale incoming data on the widget and position it the way you want. In this mode, you set up the percentage of widget height on the screen, from 0% to 100%.
 
-        .. image:: /_static/usage/blynk_usage/yheight2_charts.png
+        .. image:: ../_static/usage/blynk_usage/yheight2_charts.png
             :width: 40%
 
         If you set 0-100%, in fact it’s a full auto-scale. No matter in which range the data is coming,
@@ -540,12 +540,12 @@ Widget supports up to 4 Datastreams. Press Datastream Settings Icon to open Data
 
         If you set it to 0-25%, then this chart will only be rendered on 1/4 of the widget height: 
 
-        .. image:: /_static/usage/blynk_usage/yheight2_manual_charts.png
+        .. image:: ../_static/usage/blynk_usage/yheight2_manual_charts.png
             :width: 40%
 
         This setting is very valuable for **Binary Chart** or for visualizing a few datastreams on the same chart in a different way.
 
-        .. image:: /_static/usage/blynk_usage/binary_charts.png
+        .. image:: ../_static/usage/blynk_usage/binary_charts.png
             :width: 40%
 
     4. Delta
@@ -563,12 +563,12 @@ Widget supports up to 4 Datastreams. Press Datastream Settings Icon to open Data
 
     If this switch is ON, then SuperChart will connect all the dots even if there was no data
 
-    .. image:: /_static/usage/blynk_usage/datapoints1_charts.png
+    .. image:: ../_static/usage/blynk_usage/datapoints1_charts.png
         :width: 40%
 
     If it’s set to OFF, then you will see gaps in case there was no data.
 
-    .. image:: /_static/usage/blynk_usage/datapoints2_charts.png
+    .. image:: ../_static/usage/blynk_usage/datapoints2_charts.png
         :width: 40%
 
 * **Binary Chart Settings:**
@@ -587,7 +587,7 @@ Widget supports up to 4 Datastreams. Press Datastream Settings Icon to open Data
 
         For example, you can set to ``TRUE`` to “Equipment ON” label, ``FALSE`` to “Equipment OFF”.
 
-        .. image:: /_static/usage/blynk_usage/binarylabel_charts.png
+        .. image:: ../_static/usage/blynk_usage/binarylabel_charts.png
             :width: 40%
 
 
@@ -619,10 +619,10 @@ You need to use special commands with this widget:
     terminal.flush();   // Ensure that data was sent out of device
     terminal.clear();   // Erase all values in the terminal
 
-.. image:: /_static/usage/blynk_usage/terminal.png
+.. image:: ../_static/usage/blynk_usage/terminal.png
     :width: 15%
 
-.. image:: /_static/usage/blynk_usage/terminal_edit.png
+.. image:: ../_static/usage/blynk_usage/terminal_edit.png
     :width: 40%
 
 Sketch: `Terminal`__
@@ -670,7 +670,7 @@ Twitter
 
 Twitter widget connects your Twitter account to Blynk and allows you to send Tweets from your hardware.
 
-.. image:: /_static/usage/blynk_usage/TwitterON.png
+.. image:: ../_static/usage/blynk_usage/TwitterON.png
     :width: 15%
 
 Example code:
@@ -693,7 +693,7 @@ Email
 
 Email widget allows you to send email from your hardware to any address.
 
-.. image:: /_static/usage/blynk_usage/mail.png
+.. image:: ../_static/usage/blynk_usage/mail.png
     :width: 15%
 
 Example code:
@@ -742,7 +742,7 @@ Push Notification widget allows you to send push notification from your hardware
 
     high priority contributes more to battery drain compared to normal priority messages.
 
-.. image:: /_static/usage/blynk_usage/push.png
+.. image:: ../_static/usage/blynk_usage/push.png
     :width: 15%
 
 Example code:
@@ -790,7 +790,7 @@ Tabs
 
 The only purpose of Tabs widget is to extend your project space. You can have up to 4 tabs. Also you can drag widgets between tabs. Just drag widget on the label of required tab of tabs widget.
 
-.. image:: /_static/usage/blynk_usage/tabs_settings.png
+.. image:: ../_static/usage/blynk_usage/tabs_settings.png
     :width: 40%
 
 
@@ -799,7 +799,7 @@ Menu
 
 Menu widget allows you to send command to your hardware based on selection you made on UI. Menu sends index of element you selected and not label string. Sending index is starts from 1. It works same way as usual ComboBox element. You can also set Menu items from hardware side, :ref:`change-widget-properties`.
 
-.. image:: /_static/usage/blynk_usage/menu_edit.png
+.. image:: ../_static/usage/blynk_usage/menu_edit.png
     :width: 40%
 
 Example code:
@@ -1008,7 +1008,7 @@ RTC
 
 Real-time clock allows you to get time from server. You can preselect any timezone on UI to get time on hardware in required locale. No pin required for RTC widget.
 
-.. image:: /_static/usage/blynk_usage/rtc_edit.png
+.. image:: ../_static/usage/blynk_usage/rtc_edit.png
     :width: 40%
 
 **Sketch**: `RTC`__
@@ -1042,7 +1042,7 @@ For example, when you need to send data from your hardware not only to Blynk, bu
 
 Instead, with Webhook widget you would only need to fill in these fields:
 
-.. image:: /_static/usage/blynk_usage/webhook_settings.png
+.. image:: ../_static/usage/blynk_usage/webhook_settings.png
     :width: 40%
 
 And add this code on hardware side:

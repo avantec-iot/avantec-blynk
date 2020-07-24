@@ -30,7 +30,7 @@ Using TA65 Thermostat with Blynk
 * TA65
    The latest series of Thermostat produced by Avantec. The Wi-Fi models include ``TA65-FC`` and ``TA65-FH`` (Their firmware ID are ``TA65-FC-BK`` and ``TA65-FH-BK``).
 
-.. image:: /_static/usage/ta65.png
+.. image:: _static/usage/ta65.png
    :width: 30%
    :align: center
 
@@ -93,6 +93,7 @@ Using TA65 Thermostat with Blynk
    :maxdepth: 2
    :caption: About
 
+   copyright
    avantec
 
 

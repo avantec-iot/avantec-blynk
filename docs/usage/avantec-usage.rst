@@ -17,16 +17,16 @@ Play mode
 Devices status
 ---------------
 
-.. image:: /_static/usage/avantec_usage/project_switch.png
+.. image:: ../_static/usage/avantec_usage/project_switch.png
     :width: 24.5%
 
-.. image:: /_static/usage/avantec_usage/project_editmode.png
+.. image:: ../_static/usage/avantec_usage/project_editmode.png
     :width: 24.5%
 
-.. image:: /_static/usage/avantec_usage/project_playmode.png
+.. image:: ../_static/usage/avantec_usage/project_playmode.png
     :width: 24.5%
 
-.. image:: /_static/usage/avantec_usage/project_devices_status.png
+.. image:: ../_static/usage/avantec_usage/project_devices_status.png
     :width: 24.5%
 
 .. table:: 
@@ -47,19 +47,19 @@ Devices status
 * |icon_timezone| : skip to **RTC Settings** in play mode or edit mode
 * |icon_notification| : skip to **Notifications Settings** in edit mode
 
-.. |icon_settings| image:: /_static/usage/avantec_usage/icon_settings.png
-.. |icon_play| image:: /_static/usage/avantec_usage/icon_play.png
-.. |icon_back| image:: /_static/usage/avantec_usage/icon_back.png
-.. |icon_status| image:: /_static/usage/avantec_usage/icon_status.png
-.. |icon_stop| image:: /_static/usage/avantec_usage/icon_stop.png
-.. |icon_timezone| image:: /_static/usage/avantec_usage/icon_timezone.png
-.. |icon_notification| image:: /_static/usage/avantec_usage/icon_notification.png
+.. |icon_settings| image:: ../_static/usage/avantec_usage/icon_settings.png
+.. |icon_play| image:: ../_static/usage/avantec_usage/icon_play.png
+.. |icon_back| image:: ../_static/usage/avantec_usage/icon_back.png
+.. |icon_status| image:: ../_static/usage/avantec_usage/icon_status.png
+.. |icon_stop| image:: ../_static/usage/avantec_usage/icon_stop.png
+.. |icon_timezone| image:: ../_static/usage/avantec_usage/icon_timezone.png
+.. |icon_notification| image:: ../_static/usage/avantec_usage/icon_notification.png
 
 
 Project Settings
 -----------------
 
-.. image:: /_static/usage/avantec_usage/project_settings.png
+.. image:: ../_static/usage/avantec_usage/project_settings.png
     :width: 40%
 
 
@@ -69,7 +69,7 @@ TA65-FC
 TA65-FC Control
 ----------------
 
-.. image:: /_static/usage/avantec_usage/ta65-fc-control.png
+.. image:: ../_static/usage/avantec_usage/ta65-fc-control.png
     :width: 40%
 
 * In :guilabel:`Control` tap, **Room Temperature**, **Changeover temperature**, **Current setpoint**, **Fan status** and **Next setpoint** (next program) will be displayed.
@@ -83,7 +83,7 @@ TA65-FC Control
 TA65-FC Program
 ----------------
 
-.. image:: /_static/usage/avantec_usage/ta65-fc-program.png
+.. image:: ../_static/usage/avantec_usage/ta65-fc-program.png
     :width: 40%
 
 * In :guilabel:`Programs` tap, **current program mode** will be displayed. ( :guilabel:`No Program` / :guilabel:`1 Day` / :guilabel:`1+5+1` / :guilabel:`7 Days`).
@@ -94,7 +94,7 @@ TA65-FC Program
 TA65-FC Settings
 ------------------
 
-.. image:: /_static/usage/avantec_usage/ta65-fc-settings.png
+.. image:: ../_static/usage/avantec_usage/ta65-fc-settings.png
     :width: 40%
 
 * In :guilabel:`Setting` Tap, **Internal setting** can be adjusted.
@@ -107,7 +107,7 @@ TA65-FC Settings
 TA65-FC About
 --------------
 
-.. image:: /_static/usage/avantec_usage/ta65-fc-about.png
+.. image:: ../_static/usage/avantec_usage/ta65-fc-about.png
     :width: 40%
 
 TA65-FH
@@ -116,7 +116,7 @@ TA65-FH
 TA65-FH  Control
 -----------------
 
-.. image:: /_static/usage/avantec_usage/ta65-fh-control.png
+.. image:: ../_static/usage/avantec_usage/ta65-fh-control.png
     :width: 40%
 
 * In :guilabel:`Control` tap, **Room Temperature**, **Changeover temperature**, **Current setpoint**, **Fan status** and **Next setpoint** (next program) will be displayed.
@@ -129,7 +129,7 @@ TA65-FH  Control
 TA65-FH Program
 -------------------
 
-.. image:: /_static/usage/avantec_usage/ta65-fh-program.png
+.. image:: ../_static/usage/avantec_usage/ta65-fh-program.png
     :width: 40%
 
 * In :guilabel:`Programs` tap, **current program mode** will be displayed. ( :guilabel:`No Program` / :guilabel:`1 Day` / :guilabel:`1+5+1` / :guilabel:`7 Days`).
@@ -140,7 +140,7 @@ TA65-FH Program
 TA65-FH Settings
 -----------------
 
-.. image:: /_static/usage/avantec_usage/ta65-fh-settings.png
+.. image:: ../_static/usage/avantec_usage/ta65-fh-settings.png
     :width: 40%
 
 * In :guilabel:`Setting` Tap, **Internal setting** can be adjusted.
@@ -153,5 +153,5 @@ TA65-FH Settings
 TA65-FH About
 ---------------
 
-.. image:: /_static/usage/avantec_usage/ta65-fh-about.jpg
+.. image:: ../_static/usage/avantec_usage/ta65-fh-about.jpg
     :width: 40%

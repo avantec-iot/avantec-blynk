@@ -53,7 +53,7 @@ When you press a Button, Blynk App sends :guilabel:`1` On the second click - it 
 
 This is how Button Widget is set up:
 
-.. image:: /_static/usage/blynk_usage/button_virtual_1.png
+.. image:: ../_static/usage/blynk_usage/button_virtual_1.png
     :width: 40%
 
 Full example sketch: `Get Data`__
@@ -66,7 +66,7 @@ Sending array from Widget
 
 Some Widgets (e.g Joystick, zeRGBa) have more than one output.
 
-.. image:: /_static/usage/blynk_usage/joystick_merge_mode.png
+.. image:: ../_static/usage/blynk_usage/joystick_merge_mode.png
     :width: 40%
 
 This output can be written to Virtual Pin as an array of values. On the hardware side - you can get any element of the array [0,1,2…] by using:
@@ -97,7 +97,7 @@ Perform requests by Widget
 
 Using Blynk built-in reading frequency while App is active by setting ‘**Reading Frequency**’ parameter to some interval:
 
-.. image:: /_static/usage/blynk_usage/frequency_reading_pull.png
+.. image:: ../_static/usage/blynk_usage/frequency_reading_pull.png
     :width: 40%
 
 .. code:: c++
@@ -121,7 +121,7 @@ If you need to PUSH sensor or other data from your hardware to Widget, you can w
 .. __: http://docs.blynk.cc/#widgets-displays-superchart
 .. __: http://docs.blynkapi.apiary.io/#reference/0/pin-history-data/get-all-history-data-for-specific-pin
 
-.. image:: /_static/usage/blynk_usage/frequency_reading_push.png
+.. image:: ../_static/usage/blynk_usage/frequency_reading_push.png
     :width: 40%
 
 We recommend sending data in intervals and avoiding `Flood Error`__. You can use timers like `BlynkTimer`__. Please read instructions inside this `example sketch`__ for more details.
@@ -238,22 +238,22 @@ Control of multiple devices
 
 Blynk app has support of multiple devices. That means you can assign any widget to specific device with own auth token. For example - you may have button on V1 that controls wi-fi bulb A and another button on V1 that controls wi-fi bulb B. In order to do this you need more than 1 device within your project. To achieve this please go to project settings and click on “Devices” section :
 
-.. image:: /_static/usage/blynk_usage/new_project_settings.png
+.. image:: ../_static/usage/blynk_usage/new_project_settings.png
     :width: 40%
 
 You’ll see list of devices :
 
-.. image:: /_static/usage/blynk_usage/list_of_devices.png
+.. image:: ../_static/usage/blynk_usage/list_of_devices.png
     :width: 40%
 
 So you can add new device :
 
-.. image:: /_static/usage/blynk_usage/new_device.png
+.. image:: ../_static/usage/blynk_usage/new_device.png
     :width: 40%
 
 After above steps, every widget will have one more field “Target” :
 
-.. image:: /_static/usage/blynk_usage/widget_settings_devices.png
+.. image:: ../_static/usage/blynk_usage/widget_settings_devices.png
     :width: 40%
 
 Now you need to assign widget to device and after that widget will control only this specific device.
@@ -275,7 +275,7 @@ Devices online status
 
 Blynk app has support for online statuses for multiple devices.
 
-.. image:: /_static/usage/blynk_usage/online_status.png
+.. image:: ../_static/usage/blynk_usage/online_status.png
     :width: 40%
 
 In ideal world when device closes tcp connection with some ``connection.close()`` - connected server will get notification regarding closed connection. So you can get instant status update on UI. However in real world this mostly exceptional situation. In majority of cases there is no easy and instant way to find out that connection is not active anymore.

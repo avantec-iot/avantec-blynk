@@ -22,7 +22,7 @@ Download **Blynk -- IoT for Arduino, ESP32** from the `Apple App Store`__ or `Go
 .. __: https://itunes.apple.com/us/app/blynk-control-arduino-raspberry/id808760481?ls=1&mt=8
 .. __: https://play.google.com/store/apps/details?id=cc.blynk
 
-.. image:: /_static/intro/connect_ta65_to_blynk_by_developer/blynk_app_icon.png
+.. image:: ../_static/intro/connect_ta65_to_blynk_by_developer/blynk_app_icon.png
    :width: 40%
 
 
@@ -33,7 +33,7 @@ After you download the Blynk App, you’ll need to create a New Blynk account. T
 
 We recommend using a **real** email address because it will simplify things later.
 
-.. image:: /_static/intro/connect_ta65_to_blynk_by_developer/register_account.png
+.. image:: ../_static/intro/connect_ta65_to_blynk_by_developer/register_account.png
    :width: 40%
 
 **Why do I need to create an account?**
@@ -52,19 +52,19 @@ After you’ve successfully logged into your account, start by import the **Avan
 
 1. Enter the main windows of App and click  |scan_icon|.
 
-   .. image:: /_static/intro/connect_ta65_to_blynk_by_developer/import_project.png
+   .. image:: ../_static/intro/connect_ta65_to_blynk_by_developer/import_project.png
       :width: 40%
 
-   .. |scan_icon| image:: /_static/intro/connect_ta65_to_blynk_by_developer/scan_icon.png
+   .. |scan_icon| image:: ../_static/intro/connect_ta65_to_blynk_by_developer/scan_icon.png
 
 2. Scan **Avantec Thermostat project's** QR Code.
 
-   .. image:: /_static/intro/connect_ta65_to_blynk_by_developer/avantec_thermostat_project_qrcode.png
+   .. image:: ../_static/intro/connect_ta65_to_blynk_by_developer/avantec_thermostat_project_qrcode.png
       :width: 40%
 
 3. Purchase according to the prompts. More than 32,000 points need to be purchased.
 
-   .. image:: /_static/intro/connect_ta65_to_blynk_by_developer/energy_store.png
+   .. image:: ../_static/intro/connect_ta65_to_blynk_by_developer/energy_store.png
       :width: 40%
 
 4. After successful purchase, execute (1) and (2) again.The Project will be imported successfully.
@@ -77,27 +77,27 @@ Auth Token is a unique identifier which is needed to connect your hardware to yo
 
 1. Enter the main page of **Avantec Thermostat project** and click  |settings_icon|.
 
-   .. image:: /_static/intro/connect_ta65_to_blynk_by_developer/project_mainpage.png
+   .. image:: ../_static/intro/connect_ta65_to_blynk_by_developer/project_mainpage.png
       :width: 40%
 
-   .. |settings_icon| image:: /_static/intro/connect_ta65_to_blynk_by_developer/settings_icon.png
+   .. |settings_icon| image:: ../_static/intro/connect_ta65_to_blynk_by_developer/settings_icon.png
 
 2. Email all Tokens or copy all Tokens. It’s very convenient to send it over e-mail. Press the :guilabel:`e-mail` button and the token will be sent to the e-mail address you used for registration. You can also tap on the Token line and it will be copied to the clipboard.
 
-   .. image:: /_static/intro/connect_ta65_to_blynk_by_developer/project_setting.png
+   .. image:: ../_static/intro/connect_ta65_to_blynk_by_developer/project_setting.png
       :width: 40%
 
 3. Your may also enter the next page to obtain tokens for different devices.
 
    |project_devices| |project_device_settings_a| |project_device_settings_b|
 
-   .. |project_devices| image:: /_static/intro/connect_ta65_to_blynk_by_developer/project_devices.png
+   .. |project_devices| image:: ../_static/intro/connect_ta65_to_blynk_by_developer/project_devices.png
       :width: 32%
 
-   .. |project_device_settings_a| image:: /_static/intro/connect_ta65_to_blynk_by_developer/project_device_settings_a.png
+   .. |project_device_settings_a| image:: ../_static/intro/connect_ta65_to_blynk_by_developer/project_device_settings_a.png
       :width: 32%
 
-   .. |project_device_settings_b| image:: /_static/intro/connect_ta65_to_blynk_by_developer/project_device_settings_b.png
+   .. |project_device_settings_b| image:: ../_static/intro/connect_ta65_to_blynk_by_developer/project_device_settings_b.png
       :width: 32%
 
 .. tip::
@@ -114,8 +114,8 @@ Step 5. Run The Avantec Thermostat Project
 
 When you are done with the Settings - press the |play_icon| button. This will switch you from EDIT mode to PLAY mode where you can interact with the hardware. While in PLAY mode, you won’t be able to drag or set up new widgets, press |stop_icon| and get back to EDIT mode.
 
-.. |play_icon| image:: /_static/intro/connect_ta65_to_blynk_by_developer/play_icon.png
-.. |stop_icon| image:: /_static/intro/connect_ta65_to_blynk_by_developer/stop_icon.png
+.. |play_icon| image:: ../_static/intro/connect_ta65_to_blynk_by_developer/play_icon.png
+.. |stop_icon| image:: ../_static/intro/connect_ta65_to_blynk_by_developer/stop_icon.png
 
 
 Getting Started With TA65 Thermostat
@@ -131,17 +131,17 @@ Prerequisites. Clear Wi-Fi Configuration
 
 - 在 TA65 上同时长按 Mode、Power 两个按键 10 秒钟。
 
-   .. image:: /_static/intro/connect_ta65_to_blynk_by_developer/clear_wifi_config_a.png
+   .. image:: ../_static/intro/connect_ta65_to_blynk_by_developer/clear_wifi_config_a.png
       :width: 40 %
 
 - 进入 Wi-Fi 参数清除模式 P19。
    
-   .. image:: /_static/intro/connect_ta65_to_blynk_by_developer/clear_wifi_config_b.png
+   .. image:: ../_static/intro/connect_ta65_to_blynk_by_developer/clear_wifi_config_b.png
       :width: 40 %
 
 - 按 Up 或 Down, 选择 Yes。
 
-   .. image:: /_static/intro/connect_ta65_to_blynk_by_developer/clear_wifi_config_c.png
+   .. image:: ../_static/intro/connect_ta65_to_blynk_by_developer/clear_wifi_config_c.png
       :width: 40 %
 
 - 按 Mode 返回至正常界面，则 Wi-Fi 参数清除。
@@ -161,13 +161,13 @@ Step 2. Configure
 
 - Connect to TA65's Wi-Fi hotspot on your computer or phone.
 
-   .. image:: /_static/intro/connect_ta65_to_blynk_by_developer/connect_ta65_ap.png
+   .. image:: ../_static/intro/connect_ta65_to_blynk_by_developer/connect_ta65_ap.png
       :width: 50 %
 
 - Open your browser, type ``http://192.168.4.1`` .
 - Input your configuration, then :guilabel:`Apply`.
 
-   .. image:: /_static/intro/connect_ta65_to_blynk_by_developer/configure_ta65.png
+   .. image:: ../_static/intro/connect_ta65_to_blynk_by_developer/configure_ta65.png
 
    .. table::
       :widths: auto
@@ -186,7 +186,7 @@ Step 2. Configure
 
 - If saved successfully, the following will be displayed.
 
-   .. image:: /_static/intro/connect_ta65_to_blynk_by_developer/configure_ta65_result.png
+   .. image:: ../_static/intro/connect_ta65_to_blynk_by_developer/configure_ta65_result.png
 
 
 Step 3. Check
@@ -194,7 +194,7 @@ Step 3. Check
 
 Check that TA65 is properly connected to Blynk server. If you connect to it correctly, it will have a Wi-Fi icon in the top right corner and the time will not be 00:00. If you don't set your time zone correctly on the Blynk app, the time displayed by TA65 may be a little offset.
  
-   .. image:: /_static/intro/connect_ta65_to_blynk_by_developer/check_connection.png
+   .. image:: ../_static/intro/connect_ta65_to_blynk_by_developer/check_connection.png
       :width: 40%
 
 
@@ -227,11 +227,11 @@ Go back to the Blynk App, push the **+** or **-** button and adjust the set poin
 
    |project_main_select_device| |project_control_setpoint| |ta65_set_point|
 
-.. |project_main_select_device| image:: /_static/intro/connect_ta65_to_blynk_by_developer/project_main_select_device.png
+.. |project_main_select_device| image:: ../_static/intro/connect_ta65_to_blynk_by_developer/project_main_select_device.png
       :width: 32%
 
-.. |project_control_setpoint| image:: /_static/intro/connect_ta65_to_blynk_by_developer/project_control_setpoint.png
+.. |project_control_setpoint| image:: ../_static/intro/connect_ta65_to_blynk_by_developer/project_control_setpoint.png
       :width: 32%
 
-.. |ta65_set_point| image:: /_static/intro/connect_ta65_to_blynk_by_developer/ta65_set_point.png
+.. |ta65_set_point| image:: ../_static/intro/connect_ta65_to_blynk_by_developer/ta65_set_point.png
       :width: 32%
